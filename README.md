@@ -7,10 +7,7 @@
 Solutions to [Project Euler](https://projecteuler.net)
 
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+![all-contributors](https://img.shields.io/github/all-contributors/coding-armadillo/project-euler)
 
 ## Get started
 
