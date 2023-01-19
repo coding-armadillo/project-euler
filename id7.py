@@ -24,4 +24,4 @@ print(primes[10000])
 from primePy import primes
 
 a = primes.first(10001)
-print(a)
+print(a[-1])

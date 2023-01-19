@@ -1,5 +1,7 @@
 # Multiples of 3 or 5
 
+
+# Solution 1
 multiples = []
 
 for number in range(1, 1000):

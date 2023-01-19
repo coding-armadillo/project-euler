@@ -1,5 +1,7 @@
 # Sum square difference
 
+
+# Solution 1
 a = 0
 b = 0
 

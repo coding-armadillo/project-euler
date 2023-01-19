@@ -1,18 +1,15 @@
-from math import sqrt
-a = 1
-b = 1
-c = 1
+# Special Pythagorean triplet
 
-firm = False
 
-for i in range(2):
-    while firm == False :
-        while firm == False :
-            while firm == False :
-                if sqrt(a) + sqrt(b) + sqrt(c) == 1000 :
-                    firm = True
-                    print(sqrt(a) + sqrt(b) + sqrt(c))
+# Solution 1
+solved = False
 
-            c +=1
-        b += 1
-    a +=1
+for a in range(1, 1000):
+    for b in range(1, 1000 - a):
+        c = 1000 - a - b
+        if a**2 + b**2 == c**2:
+            print(a * b * c)
+            solved = True
+            break
+    if solved:
+        break
