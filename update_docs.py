@@ -1,10 +1,21 @@
 import json
 import pickle
+import subprocess
+import sys
+from argparse import ArgumentParser
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+
+parser = ArgumentParser(
+    prog="UpdateDocs",
+    description="A helper script to update docs",
+)
+parser.add_argument("-f", "--force", action="store_true")
+args, _ = parser.parse_known_args()
+force = args.force
 
 try:
     with open("docs/.cache", "rb") as f:
@@ -17,9 +28,27 @@ files = list(Path(".").glob("id*.py"))
 solutions = {}
 problem_ids = sorted([int(file.stem[2:]) for file in files])
 
+if not force and set(solutions.keys()) < set(cache.keys()):
+    print(f"⛔ Skipped: no update needed")
+    sys.exit()
+
+try:
+    subprocess.call(
+        [
+            "black",
+            ".",
+        ]
+    )
+except:
+    pass
 
 prompt = "📖 Refreshing Docs"
-text = """# Project Euler
+text = """---
+hide:
+  - toc
+---
+
+# Project Euler
 """
 for problem_id in tqdm(problem_ids, prompt):
     url = f"https://projecteuler.net/problem={problem_id}"
@@ -32,7 +61,7 @@ for problem_id in tqdm(problem_ids, prompt):
         cache[problem_id] = name
 
     text += f"""
-## [{name}]({url})
+## Problem {problem_id} - [{name}]({url})
 
 ??? success "Solution"
 
