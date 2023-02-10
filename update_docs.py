@@ -70,7 +70,6 @@ for problem_id in tqdm(problem_ids, prompt):
         ```py linenums="1"
         --8<-- "id{problem_id}.py"
         ```
-
 """
 
 with open(".all-contributorsrc") as f:
