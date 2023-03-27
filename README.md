@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="logo" height="196">
+    <img src="https://projecteuler.net/images/clipart/euler_portrait.png" alt="logo" height="128">
 </div>
 
 # project-euler
