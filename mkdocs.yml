@@ -22,7 +22,8 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
-repo_name: coding-armadillo/project-euler
+    - content.code.copy
+repo_name: project-euler
 repo_url: https://github.com/coding-armadillo/project-euler
 plugins:
   - search
@@ -35,6 +36,8 @@ plugins:
       type: timeago
       enable_creation_date: true
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.highlight:
       anchor_linenums: true

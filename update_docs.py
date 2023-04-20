@@ -48,7 +48,13 @@ hide:
   - toc
 ---
 
+<figure markdown>
+![Logo](https://projecteuler.net/images/clipart/euler_portrait.png){ width="100" }
+</figure>
+
 # Project Euler
+
+Solutions to [Project Euler](https://projecteuler.net)
 """
 for problem_id in tqdm(problem_ids, prompt):
     url = f"https://projecteuler.net/problem={problem_id}"

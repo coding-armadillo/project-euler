@@ -3,7 +3,13 @@ hide:
   - toc
 ---
 
+<figure markdown>
+![Logo](https://projecteuler.net/images/clipart/euler_portrait.png){ width="100" }
+</figure>
+
 # Project Euler
+
+Solutions to [Project Euler](https://projecteuler.net)
 
 ## Problem 1 - [Multiples of 3 or 5](https://projecteuler.net/problem=1)
 
