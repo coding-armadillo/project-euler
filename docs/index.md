@@ -18,7 +18,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id1.py"
+        --8<-- "src/id1.py"
         ```
 
 ## Problem 2 - [Even Fibonacci numbers](https://projecteuler.net/problem=2)
@@ -28,7 +28,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id2.py"
+        --8<-- "src/id2.py"
         ```
 
 ## Problem 3 - [Largest prime factor](https://projecteuler.net/problem=3)
@@ -38,7 +38,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id3.py"
+        --8<-- "src/id3.py"
         ```
 
 ## Problem 4 - [Largest palindrome product](https://projecteuler.net/problem=4)
@@ -48,7 +48,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id4.py"
+        --8<-- "src/id4.py"
         ```
 
 ## Problem 5 - [Smallest multiple](https://projecteuler.net/problem=5)
@@ -58,7 +58,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id5.py"
+        --8<-- "src/id5.py"
         ```
 
 ## Problem 6 - [Sum square difference](https://projecteuler.net/problem=6)
@@ -68,7 +68,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id6.py"
+        --8<-- "src/id6.py"
         ```
 
 ## Problem 7 - [10001st prime](https://projecteuler.net/problem=7)
@@ -78,7 +78,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id7.py"
+        --8<-- "src/id7.py"
         ```
 
 ## Problem 8 - [Largest product in a series](https://projecteuler.net/problem=8)
@@ -88,7 +88,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id8.py"
+        --8<-- "src/id8.py"
         ```
 
 ## Problem 9 - [Special Pythagorean triplet](https://projecteuler.net/problem=9)
@@ -98,7 +98,7 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id9.py"
+        --8<-- "src/id9.py"
         ```
 
 ## Problem 14 - [Longest Collatz sequence](https://projecteuler.net/problem=14)
@@ -108,8 +108,11 @@ Solutions to [Project Euler](https://projecteuler.net)
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id14.py"
+        --8<-- "src/id14.py"
         ```
+
+---
+
 !!! note ""
 
     Thanks to all 2 [contributors](https://github.com/coding-armadillo/project-euler#contributors-).

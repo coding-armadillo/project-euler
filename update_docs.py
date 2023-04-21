@@ -23,7 +23,7 @@ try:
 except:
     cache = {}
 
-files = list(Path(".").glob("id*.py"))
+files = list(Path("src").glob("id*.py"))
 
 solutions = {}
 problem_ids = sorted([int(file.stem[2:]) for file in files])
@@ -74,7 +74,7 @@ for problem_id in tqdm(problem_ids, prompt):
     === "Python"
 
         ```py linenums="1"
-        --8<-- "id{problem_id}.py"
+        --8<-- "src/id{problem_id}.py"
         ```
 """
 
@@ -82,7 +82,10 @@ with open(".all-contributorsrc") as f:
     data = json.load(f)
     num_contributors = len(data["contributors"])
 
-text += f"""!!! note ""
+text += f"""
+---
+
+!!! note ""
 
     Thanks to all {num_contributors} [contributors](https://github.com/coding-armadillo/project-euler#contributors-).
 """
