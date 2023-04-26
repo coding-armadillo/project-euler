@@ -23,6 +23,7 @@ theme:
   features:
     - header.autohide
     - content.code.copy
+    - navigation.top
 repo_name: project-euler
 repo_url: https://github.com/coding-armadillo/project-euler
 plugins:
@@ -52,5 +53,9 @@ markdown_extensions:
   - pymdownx.tilde
 extra:
   social:
+    - icon: fontawesome/solid/house
+      link: https://coding-armadillo.github.io/
     - icon: fontawesome/brands/github
       link: https://github.com/coding-armadillo
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:hello.coding.armadillo@gmail.com
