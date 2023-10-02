@@ -5,8 +5,8 @@
 # project-euler
 
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
-[![pages-build-deployment](https://github.com/coding-armadillo/project-euler/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/coding-armadillo/project-euler/actions/workflows/pages/pages-build-deployment)
 ![all-contributors](https://img.shields.io/github/all-contributors/coding-armadillo/project-euler)
+[![GitHub Pages](https://github.com/coding-armadillo/project-euler/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/coding-armadillo/project-euler/actions/workflows/gh-deploy.yml)
 
 Solutions to [Project Euler](https://projecteuler.net)
 
