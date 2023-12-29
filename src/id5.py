@@ -3,6 +3,7 @@
 
 # Solution 1
 from collections import Counter
+
 from primePy import primes
 
 
